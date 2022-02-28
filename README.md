@@ -41,6 +41,25 @@ All components share a similar API, allowing for a consistent and predictable de
 ✅ Detailed documentation and TypeScript Support
 
 
+## Examples
+
+I have put together two examples of different components with Radix UI primitives: Accordion and Tabs.
+
+Ignore the styling here and focus on the accessibility, try using keyboard shortcuts or a screen reader. 
+
+To run the example application:
+
+Install dependencies:
+```bash
+npm instal
+```
+
+Run the app:
+```bash
+npm run dev
+```
+
+
 ## Links
 
 [Radix UI Website](https://www.radix-ui.com/)
