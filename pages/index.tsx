@@ -1,10 +1,17 @@
-import styled from 'styled-components'
+import AccordionExample from "../lib/components/accordion-example";
+import styled from "styled-components";
+import TabExample from "../lib/components/tab-example";
 
-const Title = styled.h1`
-  color: red;
-  font-size: 50px;
-`
+const Grid = styled.div`
+  display: grid;
+  gap: 10rem;
+`;
 
-export default function Home() {
-  return <Title>My page</Title>
+export default function Index() {
+  return (
+    <Grid>
+      <AccordionExample />
+      <TabExample />
+    </Grid>
+  );
 }
